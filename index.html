@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="estilo.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+    <title>TO DO List</title>
+  </head>
+  <body>
+    
+    <div class="centrar">
+      <div class="container">
+      
+      <h3 class="titulo">TO DO LIST</h3>
+     
+      <input type="text" class="agregartareainput" id="tarea"placeholder="Agrega tu tarea" autocomplete="off"/>
+      <button class="tamaniomas" onclick="agregarTarea()">+</button>
+
+      <ul id="contenedor" ></ul>
+    </div>
+    <button  class="tamanioTareaRapida" onclick="tareaMasRapida()">Tarea más rápida</button>
+    <ul  id="masRapido"></ul>
+  </div>
+    <script src="funciones.js"></script>
+  </body>
+</html>

@@ -1,0 +1,91 @@
+.tachado{
+    text-decoration: line-through;
+
+}
+.titulo{
+  font-size: 60px;
+  text-align: center;
+  color: #11868C !important;
+}
+#masRapido{
+  color: #ffffff;
+}
+.titulo2{
+  font-size: 20px;
+  text-align: center;
+}
+
+.tareasletra{
+  font-size: 40px;
+  text-align: center;
+
+}
+.agregartareainput{
+  width: 250px;
+  height:40px;
+  
+  
+}
+.tamanioTareaRapida{
+  float: right;
+  width: 150px;
+  height:40px;
+  position: relative;
+  top: 10px;
+  background-color: #ffffff;
+  border-color: #ffffff;
+  color: #11868C;
+  font-size: 15px;
+  
+}
+.eliminar{
+  width: 25px;
+  height:25px;
+  background-color: red;
+  border-color: red;
+  color: #ffffff;
+  font-size: 10px;
+}
+.container{
+  min-height: 500px;
+  width: 500px;
+  background-color: #ffffff;
+  border-radius: 10% 10% 10% 10%;
+  position: relative;
+  text-align: center;
+}
+
+.tamaniomas{
+  width: 50px;
+  height:40px;
+  background-color: #11868C;
+  border-color: #11868C;
+  color: #ffffff;
+  font-size: 20px;
+}
+ul{
+  color: #11868C;
+ 
+}
+
+body {
+    position: relative;
+    background: linear-gradient(to right,#C3FCFF, #11868C);
+    font-family: 'Bebas Neue', cursive;
+  
+  }
+
+.centrar{
+    
+    position: absolute;
+    margin: 20%;
+    top: 30%;
+    left: 40%;
+    margin: 150px 0 0 -30px;
+    
+}
+.MasRapidatexto{
+  display: flex;
+  float: right;
+  font-size: 30px;
+}
